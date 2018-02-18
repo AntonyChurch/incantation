@@ -20,13 +20,15 @@ Incantation is a programming language to make the programmer feel like a wizard 
 
 `_` Can be used to match variables you don't currently care about
 
+`ingredient` is a group of data essentially a struct
+
 Creating a spell
 ```
 spell fibonaci #Spell is called fibonaci
 
 book sequences #Use book sequences
 
-step cast: #cast is the first point of contact for a spell
+cast: #cast is the first point of contact for a spell
     say sequences.fib.at(10). #fib_at is a step defined in the sequences book which will print the 10th number in the fibonaci sequence
 
 # Output:
