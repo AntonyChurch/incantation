@@ -22,6 +22,8 @@ Incantation is a programming language to make the programmer feel like a wizard 
 
 `ingredient` is a group of data essentially a struct
 
+`-erlang` at the beginning of the line executes Erlang so `-erlang {line of code}`
+
 Creating a spell
 ```
 spell fibonaci #Spell is called fibonaci
@@ -75,6 +77,9 @@ fib(Count, Sequence) ->
     NewSeq = [Value] ++ Sequence,
     fib(Count - 1, NewSeq).
 ```
+
+## File Extension
+`.drg` (dragon anyone..?)
 
 ## TODO
 1. Start the language
